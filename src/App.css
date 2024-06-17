@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+  background-color: #5c7cfa;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+input[type='text'] {
+  color: #fff;
+}

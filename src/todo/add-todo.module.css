@@ -1,0 +1,33 @@
+.add-todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-todo form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.add-todo input[type='text'] {
+  background-color: #364fc7;
+  width: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.add-todo input:focus {
+  outline: none;
+}
+
+.add-todo button {
+  padding: 10px;
+  background-color: #dee2e6;
+  border: 1px solid transparent;
+}

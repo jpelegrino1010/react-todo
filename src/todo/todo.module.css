@@ -1,0 +1,15 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #748ffc;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #5c7cfa;
+  padding: 10px;
+  width: 100%;
+}
+
+.todo .icon {
+  width: 25px;
+  cursor: pointer;
+}
