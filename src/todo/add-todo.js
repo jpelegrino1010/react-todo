@@ -11,8 +11,6 @@ const AddTodo = () => {
       .then((resp) => resp.json())
       .then((data) => console.log(data))
       .catch((err) => console.error(err));
-
-    window.location.reload();
   };
   return (
     <section className={classes['add-todo']}>
